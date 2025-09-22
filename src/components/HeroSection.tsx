@@ -40,21 +40,21 @@ const HeroSection = () => {
               className="inline-block py-1 px-3 text-sm bg-background-light rounded-full text-accent-500 font-medium mb-4"
               variants={itemVariants}
             >
-              Full Stack Web Developer
+              Flutter Developer
             </motion.span>
             
             <motion.h1 
               className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight"
               variants={itemVariants}
             >
-              Building <span className="text-accent-500">digital</span> experiences that matter
+              Building <span className="text-accent-500">modern</span> mobile apps with Flutter
             </motion.h1>
             
             <motion.p 
               className="text-text-secondary text-lg md:text-xl mb-8 max-w-2xl"
               variants={itemVariants}
             >
-              Transforming ideas into user-centric solutions with modern technologies and clean, efficient code. Specializing in React, Next.js, Node.js, and more.
+              Transforming ideas into impactful mobile solutions with clean code and modern design. Specializing in Flutter, Firebase, REST APIs, and seamless user experiences.
             </motion.p>
             
             <motion.div 
@@ -114,21 +114,21 @@ const HeroSection = () => {
                       <Code className="text-primary-500" size={24} />
                       <div>
                         <h3 className="font-medium text-white">Frontend</h3>
-                        <p className="text-xs text-text-secondary">React, Next.js, TypeScript</p>
+                        <p className="text-xs text-text-secondary">Flutter, Dart, GetX,</p>
                       </div>
                     </div>
                     <div className="bg-background-dark p-4 rounded-lg flex items-center gap-3">
                       <Cpu className="text-secondary-500" size={24} />
                       <div>
                         <h3 className="font-medium text-white">Backend</h3>
-                        <p className="text-xs text-text-secondary">DRF, Node.js, Express</p>
+                        <p className="text-xs text-text-secondary">Firebase,REST APIs,Node.js</p>
                       </div>
                     </div>
                     <div className="bg-background-dark p-4 rounded-lg flex items-center gap-3">
                       <Cloud className="text-accent-500" size={24} />
                       <div>
                         <h3 className="font-medium text-white">DevOps</h3>
-                        <p className="text-xs text-text-secondary">CI/CD, Git, Docker</p>
+                        <p className="text-xs text-text-secondary">GitHub, Postman, Android Studio</p>
                       </div>
                     </div>
                     <div className="bg-background-dark p-4 rounded-lg flex items-center gap-3">

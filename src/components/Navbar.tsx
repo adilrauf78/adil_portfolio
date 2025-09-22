@@ -15,8 +15,8 @@ const Navbar = ({ scrolled }: NavbarProps) => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Skills', path: '/skills' },
     { name: 'Experience', path: '/experience' },
+    { name: 'Skills', path: '/skills' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -31,7 +31,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
           {/* Logo */}
           <NavLink to="/" className="flex items-center text-white">
             <Code className="mr-2 text-accent-500" size={28} />
-            <span className="text-xl font-bold">Zaheer</span>
+            <span className="text-xl font-bold">Adil Rauf</span>
           </NavLink>
 
           {/* Desktop Navigation */}
