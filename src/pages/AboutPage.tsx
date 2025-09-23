@@ -103,7 +103,7 @@ const AboutPage = () => {
                   <Code className="text-accent-500" size={26} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Frontend Development</h3>
-                <p className="text-text-secondary">Building responsive and interactive user interfaces with React, Next.js, TypeScript, and TailwindCSS.</p>
+                <p className="text-text-secondary">Developing responsive and interactive user interfaces with Flutter and Dart.</p>
               </motion.div>
               
               <motion.div
@@ -114,7 +114,7 @@ const AboutPage = () => {
                   <Server className="text-primary-500" size={26} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Backend Development</h3>
-                <p className="text-text-secondary">Creating robust APIs and server-side applications with Node.js, Express, and Django Rest Framework.</p>
+                <p className="text-text-secondary">Building scalable backend solutions for Flutter apps with Firebase, Node.js and Express.</p>
               </motion.div>
               
               <motion.div
@@ -125,7 +125,7 @@ const AboutPage = () => {
                   <Database className="text-secondary-500" size={26} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Database Management</h3>
-                <p className="text-text-secondary">Designing and implementing database solutions with MongoDB, ensuring optimal data storage and retrieval.</p>
+                <p className="text-text-secondary">Designing and optimizing Firebase and MongoDB database solutions to enhance Flutter app performance.</p>
               </motion.div>
               
               <motion.div
@@ -136,7 +136,7 @@ const AboutPage = () => {
                   <Coffee className="text-accent-500" size={26} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">API Integration</h3>
-                <p className="text-text-secondary">Connecting applications with third-party services and APIs to extend functionality and enhance user experience.</p>
+                <p className="text-text-secondary">Integrating mobile apps with third-party services and APIs to enhance functionality and improve user experience.</p>
               </motion.div>
               
               <motion.div
@@ -158,7 +158,7 @@ const AboutPage = () => {
                   <BookOpen className="text-secondary-500" size={26} />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Continuous Learning</h3>
-                <p className="text-text-secondary">Staying updated with the latest technologies and best practices in the rapidly evolving web development landscape.</p>
+                <p className="text-text-secondary">Staying updated with the latest technologies and best practices in the rapidly evolving app development landscape.</p>
               </motion.div>
             </div>
           </motion.div>

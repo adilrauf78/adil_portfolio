@@ -103,12 +103,42 @@ const ExperiencePage = () => {
               transition={{ duration: 0.3 }}
             >
               <div className="mb-4">
-                <span className="text-accent-500 text-sm font-medium">2018 - 2022</span>
-                <h3 className="text-xl font-bold mt-1">Bachelor's in Computer Science</h3>
-                <p className="text-text-secondary">University of Technology</p>
+                <span className="text-accent-500 text-sm font-medium">2021 - 2025</span>
+                <h3 className="text-xl font-bold mt-1">Bachelor's in Software Engineering</h3>
+                <p className="text-text-secondary">Islamia University Bahawalpur</p>
               </div>
               <p className="text-text-secondary">
-                Specialized in web development and software engineering, with coursework in algorithms, data structures, database systems, and web technologies.
+                Specialized in app development and software engineering, with coursework in algorithms, data structures and database systems.
+              </p>
+            </motion.div>
+            
+            <motion.div
+              className="bg-background-card p-6 rounded-xl shadow-custom"
+              whileHover={{ y: -5 }}
+              transition={{ duration: 0.3 }}
+            >
+              <div className="mb-4">
+                <span className="text-accent-500 text-sm font-medium">2025</span>
+                <h3 className="text-xl font-bold mt-1">Mobile App Development Certification</h3>
+                <p className="text-text-secondary">High App Solutions</p>
+              </div>
+              <p className="text-text-secondary">
+                Comprehensive certification in modern mobile app development, including Flutter, Firebase, Node.js, and MongoDB.
+              </p>
+            </motion.div>
+            
+            <motion.div
+              className="bg-background-card p-6 rounded-xl shadow-custom"
+              whileHover={{ y: -5 }}
+              transition={{ duration: 0.3 }}
+            >
+              <div className="mb-4">
+                <span className="text-accent-500 text-sm font-medium">2024</span>
+                <h3 className="text-xl font-bold mt-1">Advanced Flutter Development</h3>
+                <p className="text-text-secondary">Frontend Masters</p>
+              </div>
+              <p className="text-text-secondary">
+                Specialized training in advanced Flutter concepts, including state management, performance optimization, and scalable app development.
               </p>
             </motion.div>
             
@@ -119,41 +149,11 @@ const ExperiencePage = () => {
             >
               <div className="mb-4">
                 <span className="text-accent-500 text-sm font-medium">2023</span>
-                <h3 className="text-xl font-bold mt-1">Full Stack Development Certification</h3>
-                <p className="text-text-secondary">Tech Academy</p>
+                <h3 className="text-xl font-bold mt-1">Academic Excellence Award</h3>
+                <p className="text-text-secondary">Islamia University Bahawalpur</p>
               </div>
               <p className="text-text-secondary">
-                Comprehensive certification covering modern full stack development practices, including React, Node.js, MongoDB, and deployment strategies.
-              </p>
-            </motion.div>
-            
-            <motion.div
-              className="bg-background-card p-6 rounded-xl shadow-custom"
-              whileHover={{ y: -5 }}
-              transition={{ duration: 0.3 }}
-            >
-              <div className="mb-4">
-                <span className="text-accent-500 text-sm font-medium">2022</span>
-                <h3 className="text-xl font-bold mt-1">Advanced React Development</h3>
-                <p className="text-text-secondary">Frontend Masters</p>
-              </div>
-              <p className="text-text-secondary">
-                Specialized training in advanced React concepts, including hooks, context API, performance optimization, and state management solutions.
-              </p>
-            </motion.div>
-            
-            <motion.div
-              className="bg-background-card p-6 rounded-xl shadow-custom"
-              whileHover={{ y: -5 }}
-              transition={{ duration: 0.3 }}
-            >
-              <div className="mb-4">
-                <span className="text-accent-500 text-sm font-medium">2022</span>
-                <h3 className="text-xl font-bold mt-1">MongoDB Database Administration</h3>
-                <p className="text-text-secondary">MongoDB University</p>
-              </div>
-              <p className="text-text-secondary">
-                Certification covering MongoDB database design, optimization, security, and integration with Node.js applications.
+                This award given to me for my outstanding performance in studies and actively participating in class activities.
               </p>
             </motion.div>
           </div>
