@@ -5,7 +5,7 @@ import { Code, Server, Database, Coffee, Lightbulb, BookOpen } from 'lucide-reac
 const AboutPage = () => {
   const stats = [
     { label: 'Frontend Experience', value: '1+ year' },
-    { label: 'Backend Experience', value: '6 months' },
+    { label: 'Backend Experience', value: '3 months' },
     { label: 'Projects Completed', value: '10+' },
     { label: 'Coffee Consumed', value: 'Lots' },
   ];
@@ -27,23 +27,23 @@ const AboutPage = () => {
               transition={{ duration: 0.5 }}
             >
               <h3 className="text-2xl font-semibold mb-4">
-                Hello! I'm <span className="text-accent-500">a Full Stack Developer</span>
+                Hello! I'm <span className="text-accent-500">a Flutter Developer</span>
               </h3>
               
               <p className="text-text-secondary mb-4">
-                I'm a passionate Full Stack Web Developer with over a year of experience in frontend technologies and six months of backend development. My journey in web development started with a curiosity about how websites work, which quickly turned into a passion for building digital experiences that solve real-world problems.
+                I'm a passionate Flutter Developer with over a year of experience in frontend mobile app development and three months of backend development. My journey in app development began with curiosity about how mobile applications work, which quickly turned into a passion for building digital experiences that solve real-world problems.
               </p>
               
               <p className="text-text-secondary mb-4">
-                On the frontend, I specialize in ReactJS, Next.js, TypeScript, and TailwindCSS, creating responsive and intuitive user interfaces. My backend expertise includes Node.js, Express, MongoDB, and Django Rest Framework, where I focus on building scalable and secure APIs.
+                On the frontend, I specialize in Flutter and Dart, creating responsive and intuitive mobile user interfaces. My backend expertise includes Firebase, Node.js, and Express, where I focus on building scalable and secure APIs for mobile applications.
               </p>
               
               <p className="text-text-secondary mb-4">
-                Currently, I'm working on B2B, where I've built and integrated APIs, worked on parsers, and written test cases. This role has allowed me to grow as a developer, tackle complex problems, and collaborate with talented teams.
+                Currently, I’m working on Makaan Mart, a mobile app platform that enables users to buy and sell houses. In this project, I’ve developed and integrated APIs, managed databases with Firebase and MongoDB, and implemented features for property listings, user authentication, and secure transactions. This role has helped me strengthen my skills, solve complex challenges, and collaborate effectively with a team.
               </p>
               
               <p className="text-text-secondary">
-                When I'm not coding, you'll find me learning new technologies, contributing to open-source projects, or exploring new design trends. I believe in continuous learning and strive to stay at the forefront of web development.
+               When I'm not coding, you'll find me learning new technologies, contributing to open-source projects, or exploring UI/UX trends. I believe in continuous learning and strive to stay at the forefront of mobile app development.
               </p>
             </motion.div>
             

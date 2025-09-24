@@ -8,61 +8,63 @@ const ExperiencePage = () => {
   // In a real application, this would come from an API
   const experiences: Experience[] = [
     {
-      title: "Full Stack Developer",
-      company: "B2B",
-      description: "Currently working as a Full Stack Developer at B2B, focusing on building and integrating APIs, developing parsers, and writing test cases.",
-      startDate: "January 2023",
+      title: "Full Stack Mobile App Developer",
+      company: "Makaan Mart (Personal Project)",
+      description: "Building a real estate mobile app for buying and selling properties. The project uses Flutter for the frontend and Node.js/Express with MongoDB for the backend, focusing on a smooth user experience and secure, scalable data handling.",
+      startDate: "November 2025",
       endDate: "Present",
       achievements: [
-        "Built and integrated multiple RESTful APIs using Django rest framework",
-        "Developed efficient parsers for processing large datasets",
-        "Implemented comprehensive test suites to ensure code quality",
-        "Collaborated with cross-functional teams to deliver features on time"
+        "Designed and implemented responsive mobile UI with Flutter",
+        "Developed scalable backend APIs using Node.js and Express",
+        "Integrated MongoDB for robust and secure data storage",
+        "Created property listing, advanced search, and filtering features",
+        "Implemented user authentication and secure transaction flows",
+        "Utilized GetX for efficient state management and maintainable codebase",
+        "Managed source control and collaboration with Git and GitHub"
       ],
-      technologies: ["React", "TypeScript", "Django Rest Framework", "GraphQL", "MUI", "Tailwind CSS"]
+      technologies: [
+        "Flutter",
+        "Dart",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "REST API",
+        "GetX",
+        "Git"
+      ]
     },
     {
-      title: "Frontend Developer",
-      company: "Hospital Services",
-      description: "Worked on the React frontend for a comprehensive hospital services management application, focusing on user experience and responsive design.",
-      startDate: "June 2022",
-      endDate: "December 2022",
+      title: "Flutter Frontend Developer",
+      company: "High App Solution (Remote)",
+      description: "Developed cross-platform mobile applications using Flutter and Dart, focusing on clean UI/UX and responsive design. Integrated RESTful APIs and Firebase services (Firestore, Auth, Cloud Storage) for real-time app features.",
+      startDate: "March 2024",
+      endDate: "October 2024",
       achievements: [
-        "Developed responsive UI components using React and Tailwind CSS",
-        "Implemented state management with Redux Toolkit",
-        "Built custom hooks for shared functionality",
-        "Improved application performance by 40% through code optimization"
+        "Developed cross-platform mobile apps with Flutter and Dart",
+        "Integrated RESTful APIs and Firebase (Firestore, Auth, Cloud Storage)",
+        "Applied state management with GetX / Provider",
+        "Implemented user authentication, real-time chat, Google Maps integration",
+        "Used Git and GitHub for version control and remote collaboration",
+        "Followed MVC architecture for scalable code"
       ],
-      technologies: ["React", "TypeScript", "Redux Toolkit", "CSS"]
+      technologies: ["Flutter", "Dart", "Firebase", "REST API", "GetX", "Git", "MVC"]
     },
     {
-      title: "Web Developer Intern",
-      company: "Boxing Website Project",
-      description: "Contributed to the development of a Next.js-based website for a boxing organization, focusing on frontend implementation and CMS integration.",
-      startDate: "January 2022",
-      endDate: "May 2022",
+      title: "Flutter Developer (Internship)",
+      company: "High App Solution",
+      description: "Designed and developed complete mobile app UI using Flutter for Android and iOS. Translated Figma designs into responsive, pixel-perfect Flutter widgets.",
+      startDate: "January 2024",
+      endDate: "March 2024",
       achievements: [
-        "Implemented responsive designs using Next.js and CSS modules",
-        "Set up content management system integration",
-        "Created reusable component library",
-        "Assisted in deployment and hosting setup"
+        "Designed and developed mobile app UI with Flutter",
+        "Translated Figma designs into responsive Flutter widgets",
+        "Created clean, reusable, and maintainable UI components",
+        "Implemented smooth navigation and screen transitions",
+        "Ensured responsiveness across devices"
       ],
-      technologies: ["Next.js", "CSS Modules", "Vercel", "CMS", "TypeScript", "SSR"]
-    }, 
-    {
-      title: "Frontend Developer",
-      company: "Enimagtix (OMS Project)",
-      description: "Worked on Enimagtix's in-house OMS (Office Management System) product built with React and MobX. Primarily focused on bug fixing and later contributed to the micro-frontend-based new version by implementing a permission feature.",
-      startDate: "March 2022",
-      endDate: "May 2022",
-      achievements: [
-        "Resolved critical bugs in the existing MobX-based OMS frontend",
-        "Collaborated with the team on transitioning to a micro-frontend architecture",
-        "Implemented a role-based permissions feature in the new OMS version",
-        "Maintained clean code practices and participated in code reviews"
-      ],
-      technologies: ["React","TypeScript", "MobX", "JavaScript", "Micro Frontends"]
-    }
+      technologies: ["Flutter", "Dart", "Figma", "Android", "iOS"]
+    },
+    
   ];
 
   return (

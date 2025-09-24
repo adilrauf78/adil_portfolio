@@ -20,51 +20,58 @@ const MOCK_SKILLS: Skill[] = [
   {
     _id: '3',
     name: 'Firebase',
-    proficiency: 70,
+    proficiency: 75,
     category: 'Backend',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg'
   },
   {
+    _id: '4',
+    name: 'Android Studio',
+    proficiency: 70,
+    category: 'Tool',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg'
+  },
+  {
     _id: '5',
+    name: 'Postman',
+    proficiency: 55,
+    category: 'Tool',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg'
+  },
+  {
+    _id: '6',
+    name: 'Git & GitHub',
+    proficiency: 50,
+    category: 'Tool',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
+  },
+  {
+    _id: '7',
     name: 'Node.js',
     proficiency: 30,
     category: 'Backend',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
   },
   {
-    _id: '6',
+    _id: '8',
     name: 'Express',
-    proficiency: 75,
+    proficiency: 25,
     category: 'Backend',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
   },
   {
-    _id: '7',
-    name: 'Firebase Realtime Database',
-    proficiency: 75,
-    category: 'Database',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg'
-  },
-  {
-    _id: '8',
+    _id: '9',
     name: 'MongoDB',
-    proficiency: 30,
+    proficiency: 20,
     category: 'Database',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
   },
   {
-    _id: '8',
+    _id: '10',
     name: 'SQL',
     proficiency: 20,
     category: 'Database',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
-  },
-  {
-    _id: '10',
-    name: 'Git & GitHub',
-    proficiency: 50,
-    category: 'Tool',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
   },
   {
     _id: '11',
@@ -75,31 +82,17 @@ const MOCK_SKILLS: Skill[] = [
   },
   {
     _id: '12',
-    name: 'Android Studio',
-    proficiency: 50,
-    category: 'Tool',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg'
-  },
-  {
-    _id: '12',
-    name: 'Postman',
-    proficiency: 50,
-    category: 'Tool',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg'
-  },
-  {
-    _id: '12',
-    name: 'Visual Studio Code',
-    proficiency: 50,
-    category: 'Tool',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'
-  },
-  {
-    _id: '15',
     name: 'JavaScript',
     proficiency: 45,
     category: 'Language',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+  },
+  {
+    _id: '13',
+    name: 'Visual Studio Code',
+    proficiency: 80,
+    category: 'Tool',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'
   }
 ];
 

@@ -11,31 +11,31 @@ const Footer = () => {
           <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-semibold text-white mb-2">Let's Connect</h3>
             <div className="flex space-x-4">
-              <a
-                href="https://github.com"
+                <a
+                href="https://github.com/adilrauf78"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 aria-label="GitHub"
-              >
+                >
                 <Github size={20} />
-              </a>
-              <a
-                href="https://linkedin.com"
+                </a>
+                <a
+                href="https://www.linkedin.com/in/adil-rauf/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 aria-label="LinkedIn"
-              >
+                >
                 <Linkedin size={20} />
-              </a>
-              <a
-                href="mailto:contact@example.com"
+                </a>
+                <a
+                href="mailto:adilrouf337@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 aria-label="Email"
-              >
+                >
                 <Mail size={20} />
-              </a>
+                </a>
             </div>
           </div>
 
