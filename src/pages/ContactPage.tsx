@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import SectionHeading from '../components/SectionHeading';
 import ContactForm from '../components/ContactForm';
-import { MapPin, Mail, Phone, Linkedin, Github, Twitter } from 'lucide-react';
+import { MapPin, Mail, Phone, Linkedin, Github, } from 'lucide-react';
 
 const ContactPage = () => {
   const contactInfo = [
@@ -34,9 +34,9 @@ const ContactPage = () => {
       url: 'https://github.com/adilrauf78'
     },
     {
-      icon: <Twitter size={20} />,
-      name: 'Twitter',
-      url: 'https://twitter.com/zaheerLangrial'
+      icon: <Mail size={20} />,
+      name: 'Mail',
+      url: 'adilrouf337@gmail.com'
     }
   ];
 
