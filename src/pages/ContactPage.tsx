@@ -8,17 +8,17 @@ const ContactPage = () => {
     {
       icon: <MapPin className="text-accent-500" />,
       title: 'Location',
-      details: 'Pakistan, Punjab, Bahawalpur'
+      details: 'Pakistan, Punjab, Lahore'
     },
     {
       icon: <Mail className="text-accent-500" />,
       title: 'Email',
-      details: 'zaheerahmadlangrial92@gmail.com'
+      details: 'adilrouf337@gmail.com'
     },
     {
       icon: <Phone className="text-accent-500" />,
       title: 'Phone',
-      details: '03057657111'
+      details: '03249095500'
     }
   ];
 
@@ -26,12 +26,12 @@ const ContactPage = () => {
     {
       icon: <Linkedin size={20} />,
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/zaheer-ahmad-702014293/'
+      url: 'https://www.linkedin.com/in/adil-rauf/'
     },
     {
       icon: <Github size={20} />,
       name: 'GitHub',
-      url: 'https://github.com/zaheerLangrial'
+      url: 'https://github.com/adilrauf78'
     },
     {
       icon: <Twitter size={20} />,

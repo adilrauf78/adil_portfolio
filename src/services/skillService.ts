@@ -93,7 +93,8 @@ const MOCK_SKILLS: Skill[] = [
     proficiency: 80,
     category: 'Tool',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'
-  }
+  },
+  
 ];
 
 // Get all skills or a limited number

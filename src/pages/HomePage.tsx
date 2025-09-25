@@ -155,14 +155,10 @@ const HomePage = () => {
             >
               <SectionHeading title="About Me" />
               <p className="text-text-secondary text-lg mb-6">
-                I'm a Full Stack Web Developer with over a year of experience in frontend technologies 
-                like React and Next.js, and six months of professional backend development with Node.js 
-                and MongoDB.
+                I'm a passionate Flutter Developer with over a year of experience in frontend mobile app development and three months of backend development. My journey in app development began with curiosity about how mobile applications work, which quickly turned into a passion for building digital experiences that solve real-world problems.
               </p>
               <p className="text-text-secondary text-lg mb-6">
-                My journey in web development has allowed me to work on a variety of projects, from 
-                hospital services applications to boxing websites, and I'm currently contributing to 
-                B2B, where I'm building APIs, working on parsers, and writing test cases.
+                My journey in app development has allowed me to work on diverse projects, from real estate platforms like Makaan Mart to service booking apps such as Masterz Konnect. Currently, I’m focused on building scalable APIs, integrating databases, and implementing secure, user-friendly mobile applications.
               </p>
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -193,8 +189,8 @@ const HomePage = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-background-dark to-transparent opacity-70"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-8">
                   <div className="text-white">
-                    <p className="text-2xl font-bold">Full Stack Developer</p>
-                    <p className="text-accent-400">Frontend: 1+ year | Backend: 6 months</p>
+                    <p className="text-2xl font-bold">Flutter Developer</p>
+                    <p className="text-accent-400">Frontend: 1+ year | Backend: 3 months</p>
                   </div>
                 </div>
               </div>

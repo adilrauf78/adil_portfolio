@@ -2,16 +2,41 @@ import { Project } from '../types/Project';
 
 // Mock data for initial development
 const MOCK_PROJECTS: Project[] = [
-  {
-    _id: '1',
-    title: 'Hospital Services',
-    description: 'A comprehensive React application for managing hospital services, featuring responsive design and advanced state management.',
-    image: 'https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=600',
-    technologies: ['React', 'Redux Toolkit', 'Tailwind CSS', 'JavaScript'],
-    githubUrl: 'https://github.com/example',
-    liveUrl: 'https://demo.example.com',
-    featured: true
-  },
+  // Masterz Konnect - Service Booking App
+{
+  _id: '1',
+  title: 'Masterz Konnect',
+  description: 'A full-stack service booking application built with Flutter for cross-platform mobile development and Node.js, Express, MongoDB for backend. Features include real-time booking, in-app chat, payments, and an admin panel for category management.',
+  image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600',
+  technologies: ['Flutter', 'Dart', 'Node.js', 'Express', 'MongoDB', 'GetX', 'REST API', 'Firebase Auth'],
+  githubUrl: 'https://github.com/adilrauf78/masterz-konnect',
+  liveUrl: 'https://demo.masterzkonnect.com',
+  featured: true
+},
+
+// Makaan Mart - Real Estate Platform
+{
+  _id: '2',
+  title: 'Makaan Mart',
+  description: 'A real estate platform for property listings, developed with Flutter and integrated with Node.js backend. Provides property search, location-based services with Google Maps, and secure authentication system.',
+  image: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600',
+  technologies: ['Flutter', 'Dart', 'Node.js', 'Express', 'MongoDB', 'Google Maps API', 'GetX'],
+  githubUrl: 'https://github.com/adilrauf78/makaan-mart',
+  liveUrl: 'https://demo.makaanmart.com',
+  featured: true
+},
+
+// Multi-Vendor E-Commerce App
+{
+  _id: '3',
+  title: 'Multi-Vendor E-Commerce App',
+  description: 'A scalable multi-vendor e-commerce application with Flutter frontend and Firebase backend. Includes vendor management, product listings, cart & checkout, and real-time order tracking with push notifications.',
+  image: 'https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg?auto=compress&cs=tinysrgb&w=600',
+  technologies: ['Flutter', 'Dart', 'Firebase', 'Firestore', 'Provider', 'Stripe API'],
+  githubUrl: 'https://github.com/adilrauf78/multivendor-app',
+  liveUrl: 'https://demo.multivendorapp.com',
+  featured: false
+},
   {
     _id: '2',
     title: 'Boxing Website',
@@ -51,6 +76,18 @@ const MOCK_PROJECTS: Project[] = [
     liveUrl: 'https://dashboard-demo.example.com',
     featured: false
   },
+  // Fragrance App - Frontend
+{
+  _id: '6',
+  title: 'Fragrance App (Frontend)',
+  description: 'Developed the mobile app frontend using Flutter and Dart, focusing on clean UI/UX design, responsive layouts, and smooth navigation for a fragrance shopping experience.',
+  image: 'https://images.pexels.com/photos/965980/pexels-photo-965980.jpeg?auto=compress&cs=tinysrgb&w=600',
+  technologies: ['Flutter', 'Dart', 'GetX'],
+  githubUrl: 'https://github.com/adilrauf78/fragrance_kw',
+  liveUrl: '',
+  featured: false
+}
+
 ];
 
 // Get all projects or a limited number
