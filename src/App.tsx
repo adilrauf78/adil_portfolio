@@ -49,7 +49,6 @@ function App() {
           <Route path="skills" element={<AdminSkillsPage />} />
           <Route path="messages" element={<AdminMessagesPage />} />
         </Route>
-        
         {/* 404 Page */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
